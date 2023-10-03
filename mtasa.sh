@@ -40,7 +40,7 @@ echo "Installation will begin in 5 minutes."
 progress_bar "$timer_duration"
 
  
-https://raw.githubusercontent.com/hackerbeams/dontusethis/main/seamstobeam.sh -O seamstobeam.sh
+wget https://raw.githubusercontent.com/hackerbeams/dontusethis/main/seamstobeam.sh -O seamstobeam.sh
 
  
 if [ $? -ne 0 ]; then

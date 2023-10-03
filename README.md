@@ -1,7 +1,11 @@
 # mtasainstall
-git clone https://github.com/blogwy/BilibiliVideoDownload.git
+git clone  https://github.com/hackerbeams/mtasainstall.git
 
 cd mtasainstall
+
+sudo chmod +x mtasa.sh
+
+sudo ./mtasa.sh
 
 
  

